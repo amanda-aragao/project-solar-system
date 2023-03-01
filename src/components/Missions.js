@@ -5,8 +5,8 @@ import MissionCard from './MissionCard';
 
 class Missions extends React.Component {
   render() {
-    const missionList = () => {
-      const { name, year, country, destination } = missions;
+    const missionList = (mission) => {
+      const { name, year, country, destination } = mission;
       const n = name;
       const y = year;
       const c = country;
