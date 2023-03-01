@@ -7,12 +7,14 @@ class Missions extends React.Component {
   render() {
     const missionList = (mission) => {
       const { name, year, country, destination } = mission;
-      const n = name;
-      const y = year;
-      const c = country;
-      const d = destination;
       return (
-        <MissionCard key={ n } name={ n } year={ y } country={ c } destination={ d } />
+        <MissionCard
+          key={ name }
+          name={ name }
+          year={ year }
+          country={ country }
+          destination={ destination }
+        />
       );
     };
 
