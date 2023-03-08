@@ -16,7 +16,8 @@ class SolarSystem extends React.Component {
       <div data-testid="solar-system">
         <Title headline="Planetas" />
         {/* para cada elemento do meu array de planetas recebera minha função que retorna um componente(card) com props name e image. */}
-        <div>
+        <hr className="planet-line" />
+        <div className="planets">
           {planets.map(planetList)}
         </div>
       </div>

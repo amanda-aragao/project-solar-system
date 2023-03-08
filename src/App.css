@@ -1,3 +1,98 @@
-.App {
-  text-align: center;
+ @font-face {
+   font-family: titulo;
+   src: url(./images/batmfa__.ttf);
+ }
+
+ body {
+   background-image: url(./images/background.png);
+   background-position: center;
+ } 
+
+ .App {
+   text-align: center;
+ }
+
+ main {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ header {
+   font-family: titulo;
+   color: white;
+   font-size: 40px;
+   text-align: center;
+ }
+
+ .titles {
+   border: 1px solid;
+   border-radius: 40px;
+   border-style: dashed;
+   color: white;
+   font-family: titulo;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   text-align: center;
+   margin: 0px 550px 0px 550px;
+   width: 700px;
+  }
+
+ .planets {
+   display: flex;
+   flex-direction: row;
+  justify-content: center;
+ }
+ .planet-card img{
+  width: 150px;
+  
+ }
+
+
+ .complet-card {
+   align-items: center;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   height: 120px;
+   margin: 20px;
+   background: rgba(24, 26, 37, 0.5);
+   mix-blend-mode: hard-light;
+   border: 1px solid #FFFFFF;
+   width: 400px;
+   padding-bottom: 50px;
+   
+  } 
+
+ .mission-content {
+   align-items: center;
+   display: flex;
+   gap: 20px;
+   padding-left: 5px;
+   font-size: 15px;
+   font-weight: 400;
+   color:#FFFFFF;
+ } 
+
+ .mission-name {
+   display: block;
+   justify-content: flex-start;
+   color: white;
+   font-size: 25px;
+    align-items: flex-start;
+ }
+
+ .all-missions{
+  align-items: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  flex-direction: row;
+  height: auto;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
 }
+ 

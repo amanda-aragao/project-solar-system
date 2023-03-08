@@ -19,9 +19,9 @@ class Missions extends React.Component {
     };
 
     return (
-      <div data-testid="missions">
-        <Title headline="Missões" />
-        <div>
+      <div data-testid="missions" className="missions">
+        <Title headline="Missões" className="titles" />
+        <div className="all-missions">
           {missions.map(missionList)}
         </div>
       </div>
